@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+}
+.head h3 button{
+    border: 1px solid white;
+    color: white;
+}
+.head h3 button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+#found{
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    left: 40%;
+    position: relative;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(./images/background\ 4.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    align-items: center;
+    justify-content: center;
+}
+tbody tr{
+    height: 60px;
+    left: 20px;
+    position: relative;
+}
+.search{
+    width: 300px;
+
+    display: flex;
+    border-radius: 10px;
+}
+#username1 .search{
+    width: 100%;
+    height: 80%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: -.5rem;
+    border-radius: 10px;
+}
+#email1 .search{
+    width: 100%;
+    height: 80%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: -.5rem;
+    border-radius: 10px;
+}
+#email1 #btnsearch3{
+    width: 100%;
+    color: white;
+    height: 100%;
+    margin-left: -1.5rem;
+    padding-left: 1.5rem;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cairo";
+}
+#username1 #btnsearch2{
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-left: -1.5rem;
+    padding-left: 1.5rem;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cairo";
+}
+
+#username1::placeholder{
+    color: violet;   
+    font-size: 5px;
+}
+
+#username1 .fa-search {
+    
+    margin-left: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+#email1 .fa-search {
+    
+    margin-left: 20px;
+    color: white;
+    font-size: 10px;
+}
+#btnsearch{
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    width: 250px;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cairo";
+    margin-left: -1.5rem;
+    padding-right: .5rem;
+}
+#btnsearch:hover{
+    border: 2px solid white;
+}
+::placeholder{
+    color: white;
+    
+    
+}
+.fa-search{
+    margin-left: 20px;
+    color: white;
+    font-size: 13px;
+}
+.head input{
+    padding-left: 25px;
+}
+table{
+    overflow-y: visible;
+}
+table thead button{
+    background: none;
+    outline: none;
+}
+.fa-angle-down{
+    color: white;
+    left: 80px;
+    font-size: 15px;
+
+    position: relative;
+}
+.fa-angle-up{
+    color: white;
+    left: 80px;
+    font-size: 15px;
+    position: relative;
+}
+
+#email1 .fa-angle-up{
+    left: 220px;
+    position: relative;
+}
+
+#email1 .fa-angle-down{
+    left: 220px;
+    position: relative;
+}
+
+#small1
+{
+    color: red;
+}
+
+#small2{
+    color: red;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.box1{
+    width: 23%;
+    margin: 2% 0%;
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    margin-right: -5px;
+}
+
+
+.fa-close:hover{
+    font-size: 20px;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2{
+    width: 75%;
+}
+.main{
+    margin: 20px auto;
+    
+    width: 90%;
+    height: 90%;
+}
